@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Booking</title>
+  <link rel="stylesheet" href="css/styleform.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Form Section -->
+    <div class="booking-form">
+      <h2>Make your trip</h2>
+      <form action="#" method="post">
+        <label for="pickup-location">PICK-UP LOCATION</label>
+        <input type="text" id="pickup-location" placeholder="City, Airport, Station, etc" required>
+
+        <label for="dropoff-location">DROP-OFF LOCATION</label>
+        <input type="text" id="dropoff-location" placeholder="City, Airport, Station, etc" required>
+
+        <div class="date-time">
+          <div class="date">
+            <label for="pickup-date">PICK-UP DATE</label>
+            <input type="date" id="pickup-date" required>
+          </div>
+          <div class="date">
+            <label for="dropoff-date">DROP-OFF DATE</label>
+            <input type="date" id="dropoff-date" required>
+          </div>
+        </div>
+
+        <label for="pickup-time">PICK-UP TIME</label>
+        <input type="time" id="pickup-time" required>
+
+        <button type="submit" class="book-now"><b>Rent A Car Now</b></button>
+      </form>
+    </div>
+
+    <!-- Text Section -->
+    <div class="promo-text">
+      <h2>Better Way to Rent Your <br> Perfect Cars</h2>
+      <div class="features">
+        <div class="feature">
+          <img src="resource/maps.png" alt="Pickup Icon">
+          <p>Choose Your Pickup Location</p>
+        </div>
+        <div class="feature">
+          <img src="resource/hand.png" alt="Deal Icon">
+          <p>Select the Best Deal</p>
+        </div>
+        <div class="feature">
+          <img src="resource/car.png" alt="Car Icon">
+          <p>Reserve Your Rental Car</p>
+        </div>
+
+  </div>
+</body>
+</html>
